@@ -19,6 +19,7 @@ The main objective of this project is to learn how to effectively collaborate wi
 ## Third-Party API's
 
 [Open Street Map](https://wiki.openstreetmap.org/wiki/API_v0.6)
+
 [Open Library](https://www.programmableweb.com/api/open-library-books-rest-api)
 
 ## CSS Framework Used
