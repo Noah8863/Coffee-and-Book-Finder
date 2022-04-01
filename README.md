@@ -19,6 +19,7 @@ The main objective of this project is to learn how to effectively collaborate wi
 ## Third-Party API's
 
 [Open Street Map](https://wiki.openstreetmap.org/wiki/API_v0.6)
+
 [Open Library](https://www.programmableweb.com/api/open-library-books-rest-api)
 
 ## CSS Framework Used
@@ -31,9 +32,9 @@ The main objective of this project is to learn how to effectively collaborate wi
 
 ✅ For this demo, WHEN Denver is clicked, the Denver Book Club page will be opened. 
 
-✅ As a book club member, you can add a book from the `Open Library` to the calendar to create an event.
-
 ✅ As a book club member, you will be able to view the specific book club calendar.
+
+✅ As a book club member, you can add a book from the `Open Library` to the calendar to create an event.
 
 ✅ WHEN an event on the calendar is clicked, you will be able to view the `Open Street Map` of the event.
 
