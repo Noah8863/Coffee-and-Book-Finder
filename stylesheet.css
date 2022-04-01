@@ -1,4 +1,11 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.column {
+  margin: 10px;
+  background-color: antiquewhite;
+}
+
 .columns {
-    background-color: blue;
+  background-color: blue;
+  height: 150px;
 }
