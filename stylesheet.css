@@ -1,6 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik+Moonrocks&display=swap');
 
-#bookContainer {
-    background-color:grey;
-    width: 500px;
-    height:500px;
+/* Set background color and height to fill entire viewport */
+body, html{
+    height: 100%;
+    background-color: #fff3b0;
+}
+
+.title {
+    font-size: 85px;
+    text-align: center;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: #e09f3e;
+    padding-top: 20px;
+}
+
+.form {
+    display: flex;
+    padding-bottom: 75px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.results {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.bookResults {
+    border: 3px solid #6c584c;
+    background-color: #f2cc8f;
+    margin-right: 20px;
+    max-width: 450px;
+}
+
+.coffeeResults {
+    border: 3px solid #6c584c;
+    background-color: #f2cc8f;
+    margin-left: 20px;
+    max-width: 450px;
 }
