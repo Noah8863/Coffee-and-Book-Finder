@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
 
 //Few Things we need to add:
 // --------------- //
@@ -13,6 +16,7 @@ searchBtn.addEventListener('click', findBooks)
 
 //API Variables that we need
 var APIKeyForBook = '' //None needed actually!
+<<<<<<< HEAD
 =======
 var searchBtn = document.getElementById('searchBtn')
 var searchInput = document.getElementById('searchInput')
@@ -21,11 +25,16 @@ var searchInput = document.getElementById('searchInput')
 var APIKeyForBook = '' //None needed actually!
 
 >>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
+=======
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
 var geoLocationUrl = 'https://www.googleapis.com/geolocation/v1/geolocate?key='
 var APIKeyForLocation = 'AIzaSyCMM-QjO6MtXBAjeVDkgyN48Zdx3SYA1_E'
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
 function findBooks(){
     //Isolating and calling the URL in chunks so we can easily manipulate the output later in the code
     const bookUrl = 'http://openlibrary.org/search'
@@ -33,6 +42,7 @@ function findBooks(){
     var newUrl = bookUrl + '.json' + '?title=' + searchBooks + '&limit=1'
     console.log(newUrl)
 
+<<<<<<< HEAD
 =======
 searchBtn.addEventListener('click', findBooks)
 
@@ -52,6 +62,8 @@ function findBooks(){
 
 
 >>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
+=======
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
     fetch (newUrl)
     .then(function (response){
         if (!response.ok){
@@ -62,6 +74,9 @@ function findBooks(){
     })
     .then (function (response) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
         //Making sure the fetch went through with the proper call
         console.log(response)
         
@@ -108,6 +123,7 @@ function findBooks(){
             findMoreBtn.appendChild(node)
             bookResultContainer.appendChild(findMoreBtn)
         }
+<<<<<<< HEAD
 =======
         //code for injecting HTML goes Here
         //Need to figure out how tf we are going to sort through all this data
@@ -121,5 +137,7 @@ function findBooks(){
         authorName.innerHTML = authorNameElement
         nameOfBook.innerHTML = nameOfBookElement
 >>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
+=======
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
     })
 }

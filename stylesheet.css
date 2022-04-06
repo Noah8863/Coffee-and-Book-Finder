@@ -7,9 +7,14 @@ body, html{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* Styling for Heading */
 >>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
+=======
+
+/* Styling for Heading */
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
 .title {
     font-size: 85px;
     text-align: center;
@@ -19,9 +24,14 @@ body, html{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* Search input styling (Overriding some of the css framework)*/
 >>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
+=======
+
+/* Search input styling (Overriding some of the css framework)*/
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
 .form {
     display: flex;
     padding-bottom: 75px;
@@ -32,9 +42,13 @@ body, html{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* Set styling to search bar */
 >>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
+=======
+/* Set styling to search bar */
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
 .button {
     display: flex;
     justify-content: center;
@@ -42,9 +56,14 @@ body, html{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* Set container styling for results */
 >>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
+=======
+/* Set container styling for results */
+
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
 .results {
     height: 500px;
     display: flex;
@@ -52,9 +71,14 @@ body, html{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* Book results specific styling */
 >>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
+=======
+/* Book results specific styling */
+
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
 .bookResults {
     border: 3px solid #6c584c;
     background-color: #f2cc8f;
@@ -63,9 +87,14 @@ body, html{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* Coffee results specific styling */
 >>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
+=======
+/* Coffee results specific styling */
+
+>>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
 .coffeeResults {
     border: 3px solid #6c584c;
     background-color: #f2cc8f;
