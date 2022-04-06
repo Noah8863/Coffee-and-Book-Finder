@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 //Few Things we need to add:
 // --------------- //
@@ -12,10 +13,19 @@ searchBtn.addEventListener('click', findBooks)
 
 //API Variables that we need
 var APIKeyForBook = '' //None needed actually!
+=======
+var searchBtn = document.getElementById('searchBtn')
+var searchInput = document.getElementById('searchInput')
+//Change these variables once the merge conflict is all good to go
+
+var APIKeyForBook = '' //None needed actually!
+
+>>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
 var geoLocationUrl = 'https://www.googleapis.com/geolocation/v1/geolocate?key='
 var APIKeyForLocation = 'AIzaSyCMM-QjO6MtXBAjeVDkgyN48Zdx3SYA1_E'
 
 
+<<<<<<< HEAD
 function findBooks(){
     //Isolating and calling the URL in chunks so we can easily manipulate the output later in the code
     const bookUrl = 'http://openlibrary.org/search'
@@ -23,6 +33,25 @@ function findBooks(){
     var newUrl = bookUrl + '.json' + '?title=' + searchBooks + '&limit=1'
     console.log(newUrl)
 
+=======
+searchBtn.addEventListener('click', findBooks)
+
+//API for finding the books
+
+//Few Things we need to add:
+// --------------- //
+//Adding the input into an array so we can add '+' in between words if need be
+//Limit the amount of results coming in
+function findBooks(){
+
+
+    const bookUrl = 'http://openlibrary.org/search.json?title='
+    const searchBooks = searchInput.value
+    var newUrl = bookUrl + searchBooks
+    console.log(newUrl)
+
+
+>>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
     fetch (newUrl)
     .then(function (response){
         if (!response.ok){
@@ -32,6 +61,7 @@ function findBooks(){
         return response.json()
     })
     .then (function (response) {
+<<<<<<< HEAD
         //Making sure the fetch went through with the proper call
         console.log(response)
         
@@ -78,5 +108,18 @@ function findBooks(){
             findMoreBtn.appendChild(node)
             bookResultContainer.appendChild(findMoreBtn)
         }
+=======
+        //code for injecting HTML goes Here
+        //Need to figure out how tf we are going to sort through all this data
+        console.log(response)
+        var authorNameElement = 'Authors Name: ' + response.docs[0].author_name[0]
+        var nameOfBookElement = 'Book Found Was: ' + response.docs[0].title
+
+        const authorName = document.getElementById('idGoesHere')
+        const nameOfBook = document.getElementById('newIdGoesHere')
+
+        authorName.innerHTML = authorNameElement
+        nameOfBook.innerHTML = nameOfBookElement
+>>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
     })
 }
