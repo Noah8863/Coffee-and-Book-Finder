@@ -6,6 +6,7 @@ body, html{
     background-color: #fff3b0;
 }
 
+/* Styling for Heading */
 .title {
     font-size: 85px;
     text-align: center;
@@ -14,6 +15,7 @@ body, html{
     padding-top: 20px;
 }
 
+/* Search input styling (Overriding some of the css framework)*/
 .form {
     display: flex;
     padding-bottom: 75px;
@@ -23,18 +25,21 @@ body, html{
     margin: 0 auto;
 }
 
+/* Set styling to search bar */
 .button {
     display: flex;
     justify-content: center;
     height: 60px;
 }
 
+/* Set container styling for results */
 .results {
     height: 500px;
     display: flex;
     justify-content: center;
 }
 
+/* Book results specific styling */
 .bookResults {
     border: 3px solid #6c584c;
     background-color: #f2cc8f;
@@ -42,6 +47,7 @@ body, html{
     max-width: 450px;
 }
 
+/* Coffee results specific styling */
 .coffeeResults {
     border: 3px solid #6c584c;
     background-color: #f2cc8f;
