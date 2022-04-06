@@ -4,34 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Book Club Finder</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
     <link rel="stylesheet" href="stylesheet.css">
-    <link src="./calendar.html">
 </head>
   <body>
-  <section class="section homePageSection">
+    <h1 class="title">Welcome To the Book Club!</h1>
+      <div class="container">
+        <h1>Join your fellow book worm buddies and create a book club</h1>
+        <div class="bookImgs">
+          <img id="placeholder1" src="https://blog-cdn.reedsy.com/directories/gallery/68/large_19a00aea82e591aaa3ddb796479df0c5.jpg" width="200px" height="250px">
+          <img id="placeholder2" src="https://images.squarespace-cdn.com/content/v1/58faa30ee6f2e151cda11af0/1521488932055-SHWMRFZ01445B44CIO39/Carmer+book+cover+art.jpg" width="200px" height="250px">
+          <img id="placeholder3" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/art-book-cover-design-template-34323b0f0734dccded21e0e3bebf004c_screen.jpg?ts=1637015198" width="200px" height="250px">
+          <img id="placeholder4" src="https://sciencefictionruminations.files.wordpress.com/2013/04/screen-shot-2013-03-31-at-12-09-55-pm.png" width="200px" height="250px">
+        </div>
+        <button id="searchBtn" href=""><a>Search For Events!</a></button>
+        <button id="createBtn"><a>Create a Book Club!</a></button>
+        <div class="dropdown hide" id="dropDownContainer" >
+          <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
 
-    <div class="title">Find a Bookclub!</div>
-		
-		<div class="field">
-			<label class="label">Search by Location</label>
-			<div class="control">
-				<input class="input" type="text" placeholder="ex. Denver">
-			</div>
-		</div>
-
-		<div>
-      <button id="button1"><a>Search</a></button>
-      <p class="subtitle"></p>
-    </div>
-    <div>
-      <button id="button2"><a>Create a Book Club!</a></button>
-    </div>
-
-		<div>
-			<p>Results will go here</p>
-		</div>
-  </section>
-  
+  <script src="script.js"></script>
   </body>
 </html>
