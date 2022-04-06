@@ -6,6 +6,10 @@ body, html{
     background-color: #fff3b0;
 }
 
+<<<<<<< HEAD
+=======
+/* Styling for Heading */
+>>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
 .title {
     font-size: 85px;
     text-align: center;
@@ -14,6 +18,10 @@ body, html{
     padding-top: 20px;
 }
 
+<<<<<<< HEAD
+=======
+/* Search input styling (Overriding some of the css framework)*/
+>>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
 .form {
     display: flex;
     padding-bottom: 75px;
@@ -23,18 +31,30 @@ body, html{
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
+=======
+/* Set styling to search bar */
+>>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
 .button {
     display: flex;
     justify-content: center;
     height: 60px;
 }
 
+<<<<<<< HEAD
+=======
+/* Set container styling for results */
+>>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
 .results {
     height: 500px;
     display: flex;
     justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+/* Book results specific styling */
+>>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
 .bookResults {
     border: 3px solid #6c584c;
     background-color: #f2cc8f;
@@ -42,6 +62,10 @@ body, html{
     max-width: 450px;
 }
 
+<<<<<<< HEAD
+=======
+/* Coffee results specific styling */
+>>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
 .coffeeResults {
     border: 3px solid #6c584c;
     background-color: #f2cc8f;
