@@ -6,6 +6,7 @@ body, html{
     background-color: #fff3b0;
 }
 
+
 /* Styling for Heading */
 .title {
     font-size: 85px;
@@ -14,6 +15,7 @@ body, html{
     color: #e09f3e;
     padding-top: 20px;
 }
+
 
 /* Search input styling (Overriding some of the css framework)*/
 .form {
@@ -33,6 +35,7 @@ body, html{
 }
 
 /* Set container styling for results */
+
 .results {
     height: 500px;
     display: flex;
@@ -40,6 +43,7 @@ body, html{
 }
 
 /* Book results specific styling */
+
 .bookResults {
     border: 3px solid #6c584c;
     background-color: #f2cc8f;
@@ -48,6 +52,7 @@ body, html{
 }
 
 /* Coffee results specific styling */
+
 .coffeeResults {
     border: 3px solid #6c584c;
     background-color: #f2cc8f;
