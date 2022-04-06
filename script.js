@@ -1,5 +1,6 @@
 var searchBtn = document.getElementById('searchBtn')
 var searchInput = document.getElementById('searchInput')
+//Change these variables once the merge conflict is all good to go
 
 var APIKeyForBook = '' //None needed actually!
 
@@ -36,5 +37,13 @@ function findBooks(){
         //code for injecting HTML goes Here
         //Need to figure out how tf we are going to sort through all this data
         console.log(response)
+        var authorNameElement = 'Authors Name: ' + response.docs[0].author_name[0]
+        var nameOfBookElement = 'Book Found Was: ' + response.docs[0].title
+
+        const authorName = document.getElementById('idGoesHere')
+        const nameOfBook = document.getElementById('newIdGoesHere')
+
+        authorName.innerHTML = authorNameElement
+        nameOfBook.innerHTML = nameOfBookElement
     })
 }
