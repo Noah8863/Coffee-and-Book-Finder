@@ -11,10 +11,6 @@
     <section class="container">
       <h1 class="title">Book and Coffee Shop Finder</h1>
       <div class="form">   
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
         <input class="input is-large" id="searchInput" type="text" placeholder="Search for a book here!">
         <button class="button is-primary" id="searchBtn">Search</button>
       </div>
@@ -25,21 +21,19 @@
           <p id="characters">Character's Here</p>
           <p id="Location">Location of the book can go here</p>
           <p id="time">Time it was taken place in here</p>
+          <button id="bookBtn" class="hide"></button>
+          <p id="recommendations"></p>
         </div>
-<<<<<<< HEAD
-=======
-        <input class="input is-large" type="text" placeholder="Search for a book here!">
-        <button class="button is-primary">Search</button>
-      </div>
-      <div class="results">
-        <div class="bookResults">Book Results = Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur illo omnis cupiditate dolor fuga commodi maiores molestiae dignissimos ex? Impedit distinctio omnis cupiditate, non aut quo eligendi facilis esse quam?</div>
->>>>>>> ee2c0ba589f062678291e02fff0e09c2ee6ad7ed
-=======
->>>>>>> adf0e6288984269439f4969219d6b4106c93fe1f
-        <div class="coffeeResults">Local Coffee Shop Results = Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga debitis quasi soluta rem eligendi iste vero aperiam nihil maiores facere harum recusandae quibusdam praesentium assumenda, similique, provident perferendis ratione officiis.</div>
+        <div class="coffeeResults">
+          <h2>Coffee Shops Near You!</h2>
+          <div id="map"></div>
+        </div>
       </div>
       </section>
     
   <script src="script.js"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxVPPRJ_4mR6mArRe0CYCBkvi20z6zFCc&libraries=places&callback=initMap">
+  </script>
   </body>
 </html>
