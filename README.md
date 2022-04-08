@@ -1,4 +1,4 @@
-# Coffee-and-Book Finder
+# Coffee-and-Book-Finder
 
 ## Project Description
 
@@ -26,6 +26,8 @@ learn how to deal with them as a collective.
 
 [Open Library](https://www.programmableweb.com/api/open-library-books-rest-api)
 
+[OpenWeather One Call API](https://openweathermap.org/api/one-call-api) Used for Longitude and Latitude Only
+
 ## CSS Framework Used
 
 [Bulma](https://bulma.io/)
@@ -34,15 +36,23 @@ learn how to deal with them as a collective.
 
 ✅ The main page of the application with allow a user to find a book & a unique coffee shop location.
 
-✅ When a book is searched the book will pull up from `Open Library`.
+✅ When a book is searched, the book will pull up from `Open Library`.
 
-✅ When a location is given a list of coffee shops will pull up from `Google Geolocation`.
+✅ When a book is searched, a recommended coffee and food item will display.
+
+✅ When the "Find out more about this book" button is clicked, the `Open Library` will open in a new page about that book.
+
+✅ When a new book is searched, the "Find out more about this book" button will refresh/clear.
+
+✅ When a location is given, a list of coffee shops will pull up from `Google Geolocation`.
 
 ## Live URL
 
 https://Noah8863.github.io/Coffee-and-Book-Finder/
 
-## Screenshots
+## Presentation | Google Slides
+https://docs.google.com/presentation/d/13RwvT0qLVmkHSeG3fJg3Ka1LvPxJya6YTOZlf4SAQ_s/edit?usp=sharing
 
+## Screenshots
 ![](./images/finder.png)
 ![](./images/results.png)
