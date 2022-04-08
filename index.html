@@ -10,9 +10,13 @@
   <body>
     <section class="container">
       <h1 class="title">Book and Coffee Shop Finder</h1>
-      <div class="form">   
+      <div class="form">
         <input class="input is-large" id="searchInput" type="text" placeholder="Search for a book here!">
         <button class="button is-primary" id="searchBtn">Search</button>
+      </div>
+      <div class="form">
+        <input class="input is-large" id="cityInput" type="text" placeholder="Enter A City Close to You">
+        <button class="button is-primary" id="searchBtn" onclick= findingCity()>Search</button>
       </div>
       <div class="results">
         <div class="bookResults" id="results">
@@ -30,7 +34,6 @@
         </div>
       </div>
       </section>
-    
   <script src="script.js"></script>
   <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxVPPRJ_4mR6mArRe0CYCBkvi20z6zFCc&libraries=places&callback=initMap">
