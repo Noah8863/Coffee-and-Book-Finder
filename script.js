@@ -4,10 +4,13 @@
 //If we have time, add a more precise search method when calling the API
 
 //linking the variables to the HTML and calling them
-
+var coffeeContainer = document.getElementsByClassName('coffeeResults')
 var searchBtn = document.getElementById("searchBtn");
 var searchInput = document.getElementById("searchInput");
-var bookResultContainer = document.getElementById("results");
+var bookResultContainer = document.getElementById("results")
+var coffeeContainer2 = document.getElementById('coffee')
+var googleMap = document.getElementById('map')
+
 searchBtn.addEventListener("click", findBooks);
 
 var cityInput = document.getElementById("cityInput");
@@ -20,6 +23,7 @@ var APIKeyForLocation = "AIzaSyCMM-QjO6MtXBAjeVDkgyN48Zdx3SYA1_E";
 var APIKeyForMaps = "AIzaSyAxVPPRJ_4mR6mArRe0CYCBkvi20z6zFCc";
 
 function findingCity() {
+    
   var city = cityInput.value;
   const url =
     "https://api.openweathermap.org/data/2.5/forecast?q=" +
@@ -52,9 +56,11 @@ function findingCity() {
       console.log("City Fetch is working!");
 
       initialize();
+      coffeeContainer2.classList.remove('hide')
+      googleMap.classList.remove('hide')
       var map;
       var service;
-
+        //show the container here
       function initialize() {
         var pyrmont = new google.maps.LatLng(lat, lon);
 
@@ -89,7 +95,7 @@ function findBooks() {
   const searchBooks = searchInput.value;
   var newUrl = bookUrl + ".json" + "?title=" + searchBooks + "&limit=1";
   console.log(newUrl);
-
+    bookResultContainer.classList.remove('hide')
   fetch(newUrl)
     .then(function (response) {
       if (!response.ok) {
@@ -127,12 +133,17 @@ function findBooks() {
 
       addInfoBtn();
 
+      function clearFunction() {
+        document.getElementById('bookBtn').innerHTML = ''
+      }
+
       //Function works but we still need to clear the button of the data so if we do another
       //search it doesn't keep the old value
       //.clear() or refresh page function?
       //we can also get rid of this function if we can't figure it out
       function addInfoBtn() {
         var bookBtn = document.getElementById("bookBtn");
+        clearFunction()
         bookBtn.classList.remove("hide");
 
         //You can change the 'button' class to whatever else for easier styling
@@ -143,19 +154,19 @@ function findBooks() {
         );
         bookBtn.appendChild(newBookText);
         bookResultContainer.appendChild(bookBtn);
-        searchBtn.addEventListener("click", clearFunction);
 
-        document.getElementById("bookBtn").onclick = function () {
-          location.href =
-            "http://openlibrary.org/search?title=" +
-            searchInput.value +
-            "&limit=1";
-        };
+        //searchBtn.addEventListener("click", clearFunction);
+
+        document.getElementById("bookBtn").addEventListener('click', function (e) {
+          window.open("https://openlibrary.org/search?title=" + response.docs[0].title + "&limit=1");
+          console.log('clicked!')
+          console.log(response.docs[0].title)
+          console.log(e.target)
+          
+        })
       }
       //call the function to execute the code that creates a button
-      function clearFunction() {
-        bookBtn.clear();
-      }
+    
     });
 }
 
