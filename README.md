@@ -16,7 +16,7 @@ learn how to deal with them as a collective.
     * index.html
     * script.js
     * style.css
-    * (x2) Third-Party API's 
+    * (x3) Third-Party API's 
     * Use a CSS Framework other than Bootstrap
     * Google Slides (pitch book)
 
