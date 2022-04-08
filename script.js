@@ -7,6 +7,7 @@
 var searchBtn = document.getElementById('searchBtn')
 var searchInput = document.getElementById('searchInput')
 var bookResultContainer = document.getElementById('results')
+
 searchBtn.addEventListener('click', findBooks)
 
 var cityInput = document.getElementById('cityInput')
@@ -42,7 +43,7 @@ function findingCity(){
         console.log(newURL)
         console.log('City Fetch is working!')
 
-        initialize()
+        //initialize()
         var map;
         var service;
         var infowindow;
