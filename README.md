@@ -34,20 +34,23 @@ learn how to deal with them as a collective.
 
 ## How to Use the Project
 
-✅ The main page of the application with allow a user to find a book & a unique coffee shop location.
+✅Create a interactive coding quiz with a start button & timer.
 
-✅ When a book is searched, the book will pull up from `Open Library`.
+✅Timer starts when presented with a question. When question is answered another question is presented.
 
-✅ When a book is searched, a recommended coffee and food item will display.
+✅When question is answered incorrectly, time is subtracted from the clock.
 
-✅ When the "Find out more about this book" button is clicked, the `Open Library` will open in a new page about that book.
+✅When all questions are answered or the timer reaches 0. The game is over.
 
-✅ When a new book is searched, the button will refresh/clear and will open a new page about that book in `Open Library`.
+✅Once game is over player enters initials to the save the high score before resetting and starting over.
 
-✅ When a location is given, a list of coffee shops will pull up from `Google Geolocation`.
+✅Repository contains multiple descriptive commit messages, contains a README with a link to deployed project, and Screenshot.
 
 ## Live URL
 https://Noah8863.github.io/Coffee-and-Book-Finder/
+
+## Presentation | Google Slides
+https://docs.google.com/presentation/d/13RwvT0qLVmkHSeG3fJg3Ka1LvPxJya6YTOZlf4SAQ_s/edit?usp=sharing
 
 ## Screenshots
 ![](images/finder.PNG)
