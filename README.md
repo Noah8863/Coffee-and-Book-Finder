@@ -16,7 +16,7 @@ learn how to deal with them as a collective.
     * index.html
     * script.js
     * style.css
-    * (x2) Third-Party API's 
+    * (x2) Third-Party API's
     * Use a CSS Framework other than Bootstrap
     * Google Slides (pitch book)
 
@@ -39,7 +39,10 @@ learn how to deal with them as a collective.
 ✅ When a location is given a list of coffee shops will pull up from `Google Geolocation`.
 
 ## Live URL
+
 https://Noah8863.github.io/Coffee-and-Book-Finder/
 
 ## Screenshots
-![](images/finder.PNG)
+
+![](./images/finder.png)
+![](./images/results.png)
