@@ -19,6 +19,7 @@
         <button class="button is-primary" id="searchBtn" onclick= findingCity()>Search</button>
       </div>
       <div class="results">
+
         <div class="bookResults hide" id="results">
           <h1 id="authorName" class="textBook"></h1>
           <h2 id="bookTitle" class="textBook"></h2>
@@ -29,12 +30,14 @@
           <br><br>
           <p id="recommendations"></p>
         </div>
+
         <div class="coffeeResults hide" id="coffee">
-          <h2>Find a coffee shop near you!</h2>
+          <h2 class="coffeeText">Find a coffee shop near you!</h2>
           <div class="hide" id="map"></div>
         </div>
       </div>
-      </section>
+    </section>
+
   <script src="script.js"></script>
   <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxVPPRJ_4mR6mArRe0CYCBkvi20z6zFCc&libraries=places">
