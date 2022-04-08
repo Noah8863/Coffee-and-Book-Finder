@@ -15,28 +15,28 @@
         <button class="button is-primary" id="searchBtn">Search</button>
       </div>
       <div class="form">
-        <input class="input is-large" id="cityInput" type="text" placeholder="Enter A City Close to You">
+        <input class="input is-large" id="cityInput" type="text" placeholder="Find coffee shops near you!">
         <button class="button is-primary" id="searchBtn" onclick= findingCity()>Search</button>
       </div>
       <div class="results">
-        <div class="bookResults" id="results">
-          <h1 id="authorName">Author Name Here</h1>
-          <h2 id="bookTitle">Book Title Here</h2>
-          <p id="characters">Character's Here</p>
-          <p id="Location">Location of the book can go here</p>
-          <p id="time">Time it was taken place in here</p>
+        <div class="bookResults hide" id="results">
+          <h1 id="authorName"></h1>
+          <h2 id="bookTitle"></h2>
+          <p id="characters"></p>
+          <p id="Location"></p>
+          <p id="time"></p>
           <button id="bookBtn" class="hide"></button>
           <p id="recommendations"></p>
         </div>
-        <div class="coffeeResults">
-          <h2>Coffee Shops Near You!</h2>
-          <div id="map"></div>
+        <div class="coffeeResults hide" id="coffee">
+          <h2>Find a coffee shop near you!</h2>
+          <div class="hide" id="map"></div>
         </div>
       </div>
       </section>
   <script src="script.js"></script>
-  <!-- <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxVPPRJ_4mR6mArRe0CYCBkvi20z6zFCc&libraries=places&callback=initMap">
-  </script> -->
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxVPPRJ_4mR6mArRe0CYCBkvi20z6zFCc&libraries=places">
+  </script>
   </body>
 </html>
