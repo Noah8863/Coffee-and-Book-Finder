@@ -59,3 +59,14 @@ body, html{
     margin-left: 20px;
     max-width: 450px;
 }
+.hide {
+    display:none;
+}
+#map {
+    position: relative;
+    top: 60px;
+    left: 35px;
+    width:350px;
+    height: 350px;
+    
+}
