@@ -42,12 +42,15 @@ learn how to deal with them as a collective.
 
 ✅ When the "Find out more about this book" button is clicked, the `Open Library` will open in a new page about that book.
 
-✅ When a new book is searched, the button will refresh/clear and will open a new page about that book in `Open Library`.
+✅ When a new book is searched, the button will refresh/clear and when clicked again a new `Open Library` page will open about that new book.
 
 ✅ When a location is given, a list of coffee shops will pull up from `Google Geolocation`.
 
 ## Live URL
 https://Noah8863.github.io/Coffee-and-Book-Finder/
+
+## Presentation | Google Slides
+https://docs.google.com/presentation/d/13RwvT0qLVmkHSeG3fJg3Ka1LvPxJya6YTOZlf4SAQ_s/edit?usp=sharing
 
 ## Screenshots
 ![](images/finder.PNG)
