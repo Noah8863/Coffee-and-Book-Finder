@@ -19,25 +19,25 @@
         <button class="button is-primary" id="searchBtn" onclick= findingCity()>Search</button>
       </div>
       <div class="results">
-        <div class="bookResults" id="results">
-          <h1 id="authorName"></h1>
-          <h2 id="bookTitle"></h2>
-          <p id="characters"></p>
-          <p id="Location"></p>
-          <p id="time"></p>
+        <div class="bookResults hide" id="results">
+          <h1 id="authorName" class="textBook"></h1>
+          <h2 id="bookTitle" class="textBook"></h2>
+          <p id="characters" class="textBook"></p>
+          <p id="Location" class="textBook"></p>
+          <p id="time" class="textBook"></p>
           <button id="bookBtn" class="hide"></button>
-          <br>
+          <br><br>
           <p id="recommendations"></p>
         </div>
-        <div class="coffeeResults">
-          <h2>Coffee Shops Near You!</h2>
-          <div id="map"></div>
+        <div class="coffeeResults hide" id="coffee">
+          <h2>Find a coffee shop near you!</h2>
+          <div class="hide" id="map"></div>
         </div>
       </div>
       </section>
   <script src="script.js"></script>
   <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxVPPRJ_4mR6mArRe0CYCBkvi20z6zFCc&libraries=places&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxVPPRJ_4mR6mArRe0CYCBkvi20z6zFCc&libraries=places">
   </script>
   </body>
 </html>
