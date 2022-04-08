@@ -188,9 +188,4 @@ if (pickedMember == 'Bryan'){
     console.log(pickedFoodForBryan)
     console.log(pickedDrinkForBryan)
     recommendations.innerHTML = 'Bryan recommends to drink a ' + pickedDrinkForBryan + ' and a ' + pickedFoodForBryan + ' to eat with this book'
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> Noahs_branch
