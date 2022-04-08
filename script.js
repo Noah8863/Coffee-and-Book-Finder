@@ -4,6 +4,7 @@
 //If we have time, add a more precise search method when calling the API
 
 //linking the variables to the HTML and calling them
+
 var searchBtn = document.getElementById('searchBtn')
 var searchInput = document.getElementById('searchInput')
 var bookResultContainer = document.getElementById('results')
@@ -188,4 +189,5 @@ if (pickedMember == 'Bryan'){
     console.log(pickedFoodForBryan)
     console.log(pickedDrinkForBryan)
     recommendations.innerHTML = 'Bryan recommends to drink a ' + pickedDrinkForBryan + ' and a ' + pickedFoodForBryan + ' to eat with this book'
+  
 }
