@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Permanent+Marker&display=swap');
 
 /* Set background color and height to fill entire viewport */
 
@@ -43,6 +45,9 @@
     background-color: #f2cc8f;
     margin-right: 20px;
     max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* Coffee results specific styling */
@@ -51,6 +56,7 @@
     background-color: #f2cc8f;
     margin-left: 20px;
     max-width: 450px;
+    
 }
 .hide {
     display:none;
@@ -75,4 +81,17 @@ body {
     position: absolute;
 }
 
+#bookBtn {
+    margin-top: 50px;
+    background-color: hsl(171, 100%, 41%)
+}
 
+#recommendations {
+    font-size: 30px;
+    font-family: 'Caveat', Arial, Helvetica, sans-serif
+}
+
+.textBook {
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
