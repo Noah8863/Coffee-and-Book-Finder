@@ -91,7 +91,7 @@ function findingCity() {
 
 function findBooks() {
   //Isolating and calling the URL in chunks so we can easily manipulate the output later in the code
-  const bookUrl = "http://openlibrary.org/search";
+  const bookUrl = "https://openlibrary.org/search";
   const searchBooks = searchInput.value;
   var newUrl = bookUrl + ".json" + "?title=" + searchBooks + "&limit=1";
   console.log(newUrl);
