@@ -77,8 +77,8 @@ body {
     background-image: url('./images/AdobeStock_138596781.jpeg');
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     position: absolute;
 }
 
