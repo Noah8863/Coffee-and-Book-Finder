@@ -82,6 +82,12 @@ body {
     position: absolute;
 }
 
+@media only screen and (max-width: 1540px) {
+body {
+    height: auto;
+    }
+}
+
 #bookBtn {
     background-color: hsl(171, 100%, 41%);
     position: absolute;
